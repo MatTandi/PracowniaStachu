@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>js string</title>
+</head>
+<body>
+    <script>
+        function przypierdol_mi()
+        {
+const x="ona patrzy w moje oczy już mnie nigdy nie przeoczy kiedy! wchodzę na klub dobre ciuchy i but ona wie że to cud jestem obok i chuj jestem \
+obok i chuj jestem obok jesteś obok mnie i chce chce cię mieć na miejscu pasażera kiedy mam cię buzuje mi się wena kiedy jesteś to wiem ze nie \
+zginę zawsze do złej gry robię dobrą minę \
+Coco Channel na dobry dzień biorę cię i to wiem ty nie pozwolisz mi na sen! Coco channel na dobry dzień biorę cię i to wiem ty nie pozwolisz mi na sen."
+ const j=document.getElementById('j').value  
+ const d=document.getElementById('d').value     
+
+//1
+console.log(x.length)
+//2
+console.log(x.charAt(j))
+//3
+document.write(x.toUpperCase())
+//4
+console.log(x.substr(j,d))
+//5
+const jd =x.replaceAll("chuj", "penis")
+console.log(jd)
+document.write (x.replaceAll("chuj","penis"))
+//6
+console.log(x.split('a').length-1)
+//7
+const dis=x.split("!")
+console.log(dis)
+//8
+
+
+}
+
+</script>
+
+<input type="number" id="j"><br>
+<input type="number" id="d"><br>
+<button onclick="przypierdol_mi()">przypierdol_mi</button>
+    
+</body>
+</html>
